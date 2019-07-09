@@ -182,3 +182,7 @@ map Ь M
 map Б <
 map Ю >
 
+" sudo savefile if vim not 'in' sudo
+command W w !sudo tee % >/dev/null
+cmap w!! w !sudo tee >/dev/null %
+
