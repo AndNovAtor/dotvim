@@ -73,9 +73,6 @@ let g:NERDCustomDelimiters = { 'ledger': { 'left': ';' } }
 let g:startify_change_to_vcs_root = 1
 let g:startify_session_persistence = 1
 
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#branch#enabled = 1
-
 set laststatus=2  " always show status line, even for 1 file (to enable Powerline)
 
 cabbr <expr> %% expand('%:h')
