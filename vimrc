@@ -47,7 +47,7 @@ set foldmethod=indent
 set foldlevelstart=99 " all folds are opened
 set guioptions-=T
 if has("gui_gtk2") || has("gui_gtk3")
-  set guifont=Fira\ Code\ 14,Monospace\ 14,Andale\ Mono\ 14
+  set guifont=Ubuntu\ Mono\ 14,Monospace\ 14,Andale\ Mono\ 14
 elseif has("gui_win32")
   set guifont=Fira_Code:h14,Lucida_Console:h13
 else
